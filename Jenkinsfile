@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/prabhajayaraj/frontend',
+                    url: 'https://github.com/prabhajayaraj/dev-frontend-01',
                     credentialsId: 'aws-credentials'
             }
         }
